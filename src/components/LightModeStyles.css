@@ -1,0 +1,83 @@
+/* Additional Light Mode Enhancements */
+
+/* Make sure light mode has proper contrast */
+body:not(.dark-mode) {
+  --text-dark: #1e293b;
+  --bg-light: #f8fafc;
+}
+
+/* Light mode section backgrounds remain colorful */
+body:not(.dark-mode) .hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  animation: gradientShift 15s ease infinite;
+}
+
+body:not(.dark-mode) .pricing {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+}
+
+body:not(.dark-mode) .footer {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+}
+
+/* Light mode service cards - keep glassmorphism */
+body:not(.dark-mode) .service-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(15px);
+}
+
+body:not(.dark-mode) .service-card:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Light mode gallery cards */
+body:not(.dark-mode) .gallery-item {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Light mode stat cards */
+body:not(.dark-mode) .stat-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(15px);
+}
+
+body:not(.dark-mode) .stat-card:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Light mode contact form */
+body:not(.dark-mode) .contact-form {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+}
+
+body:not(.dark-mode) .form-group input,
+body:not(.dark-mode) .form-group select,
+body:not(.dark-mode) .form-group textarea {
+  background: white;
+  color: #1e293b;
+  border-color: rgba(139, 92, 246, 0.2);
+}
+
+/* Light mode filter buttons */
+body:not(.dark-mode) .filter-btn {
+  background: rgba(255, 255, 255, 0.85);
+  color: #1e293b;
+}
+
+/* Light mode text colors */
+body:not(.dark-mode) .service-card p,
+body:not(.dark-mode) .about-text p,
+body:not(.dark-mode) .stat-label,
+body:not(.dark-mode) .service-features li,
+body:not(.dark-mode) .feature {
+  color: #475569;
+}
+
+body:not(.dark-mode) .section-title {
+  color: #1e293b;
+}
+
+body:not(.dark-mode) .section-subtitle {
+  color: #64748b;
+}

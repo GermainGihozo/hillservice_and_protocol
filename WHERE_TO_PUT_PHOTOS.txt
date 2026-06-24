@@ -1,0 +1,163 @@
+═══════════════════════════════════════════════════════════════════════
+    📸 WHERE TO PUT YOUR REAL PHOTOS - VISUAL GUIDE
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  STEP 1: PUT YOUR 12 PHOTOS IN THIS FOLDER                         │
+└─────────────────────────────────────────────────────────────────────┘
+
+📁 d:\mine\projects\hillservice_and_protocol\public\images\
+│
+├── 🎨 logo.svg (✅ Already there - don't delete!)
+│
+├── 💍 wedding-1.jpg         👈 ADD YOUR WEDDING PHOTO #1 HERE
+├── 💍 wedding-2.jpg         👈 ADD YOUR WEDDING PHOTO #2 HERE
+├── 💍 wedding-3.jpg         👈 ADD YOUR WEDDING PHOTO #3 HERE
+│
+├── 🏢 corporate-1.jpg       👈 ADD YOUR CORPORATE PHOTO #1 HERE
+├── 🏢 corporate-2.jpg       👈 ADD YOUR CORPORATE PHOTO #2 HERE
+├── 🏢 corporate-3.jpg       👈 ADD YOUR CORPORATE PHOTO #3 HERE
+│
+├── 🎓 graduation-1.jpg      👈 ADD YOUR GRADUATION PHOTO #1 HERE
+├── 🎓 graduation-2.jpg      👈 ADD YOUR GRADUATION PHOTO #2 HERE
+│
+├── 🎸 concert-1.jpg         👈 ADD YOUR CONCERT PHOTO #1 HERE
+├── 🎸 concert-2.jpg         👈 ADD YOUR CONCERT PHOTO #2 HERE
+│
+├── 🎉 special-1.jpg         👈 ADD YOUR SPECIAL EVENT PHOTO #1 HERE
+└── 🎉 special-2.jpg         👈 ADD YOUR SPECIAL EVENT PHOTO #2 HERE
+
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  STEP 2: EDIT THIS FILE                                             │
+└─────────────────────────────────────────────────────────────────────┘
+
+📄 src\components\Gallery.jsx
+
+Look for this section (around line 10):
+
+╔═══════════════════════════════════════════════════════════════════╗
+║  // 📸 REPLACE THESE IMAGES WITH YOUR OWN PHOTOS                  ║
+║                                                                   ║
+║  const galleryItems = [                                          ║
+║    // 💍 WEDDING PHOTOS                                          ║
+║    {                                                             ║
+║      id: 1,                                                      ║
+║      category: 'wedding',                                        ║
+║      image: 'https://images.unsplash.com/...',                   ║
+║      // 👆 REPLACE with: '/images/wedding-1.jpg'  <--- HERE!    ║
+║      title: 'Elegant Wedding Ceremony',                          ║
+║      description: 'Beautiful outdoor ceremony'                   ║
+║    },                                                            ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  STEP 3: REPLACE THE IMAGE URLS                                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+❌ BEFORE (Using online placeholder):
+    image: 'https://images.unsplash.com/photo-1519741497674...',
+
+✅ AFTER (Using your local photo):
+    image: '/images/wedding-1.jpg',
+
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  COMPLETE REPLACEMENT GUIDE                                          │
+└─────────────────────────────────────────────────────────────────────┘
+
+Find these lines in Gallery.jsx and replace:
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💍 WEDDING PHOTO #1                                               ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ Line ~30:                                                         ┃
+┃   image: 'https://images.unsplash.com/photo-1519741497674...',   ┃
+┃   // 👆 REPLACE with: '/images/wedding-1.jpg'                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💍 WEDDING PHOTO #2                                               ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ Line ~37:                                                         ┃
+┃   image: 'https://images.unsplash.com/photo-1465495976277...',   ┃
+┃   // 👆 REPLACE with: '/images/wedding-2.jpg'                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 💍 WEDDING PHOTO #3                                               ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ Line ~44:                                                         ┃
+┃   image: 'https://images.unsplash.com/photo-1464366400600...',   ┃
+┃   // 👆 REPLACE with: '/images/wedding-3.jpg'                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+... and so on for all 12 photos (see detailed comments in the file)
+
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  📋 CHECKLIST                                                        │
+└─────────────────────────────────────────────────────────────────────┘
+
+Photo Requirements:
+  ☐ Format: JPG or PNG
+  ☐ Size: 800x600 pixels (recommended)
+  ☐ File size: Under 500KB each
+  ☐ Orientation: Landscape (horizontal)
+  ☐ Quality: High resolution, clear, professional
+
+File Placement:
+  ☐ 3 wedding photos in public/images/
+  ☐ 3 corporate photos in public/images/
+  ☐ 2 graduation photos in public/images/
+  ☐ 2 concert photos in public/images/
+  ☐ 2 special event photos in public/images/
+
+Code Update:
+  ☐ Opened Gallery.jsx in code editor
+  ☐ Found the galleryItems array (line ~28)
+  ☐ Replaced all 12 image URLs
+  ☐ Updated titles and descriptions
+  ☐ Saved the file
+
+Testing:
+  ☐ Refreshed browser (Ctrl + F5)
+  ☐ Checked gallery section
+  ☐ All 12 photos showing
+  ☐ Clicked photo - lightbox works
+  ☐ Tested filters - categories work
+  ☐ Tested on mobile view
+
+═══════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────┐
+│  ⚡ QUICK REFERENCE                                                  │
+└─────────────────────────────────────────────────────────────────────┘
+
+Photo Folder:
+  d:\mine\projects\hillservice_and_protocol\public\images\
+
+Code File:
+  d:\mine\projects\hillservice_and_protocol\src\components\Gallery.jsx
+
+Line to look for:
+  const galleryItems = [
+
+What to replace:
+  image: 'https://images.unsplash.com/...',
+  
+Replace with:
+  image: '/images/your-photo.jpg',
+
+═══════════════════════════════════════════════════════════════════════
+
+Need detailed instructions?
+  📖 Read: HOW_TO_ADD_PHOTOS.md
+  📖 Read: public/images/README.md
+
+═══════════════════════════════════════════════════════════════════════

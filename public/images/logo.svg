@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#1a3e3e"/>
+  
+  <!-- Mountains -->
+  <path d="M200 500 L350 250 L500 450 L650 200 L800 450 L950 500 Z" fill="#2d5555" stroke="#fff" stroke-width="3"/>
+  <path d="M300 500 L450 300 L600 500 Z" fill="#1a3e3e" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Trees (left) -->
+  <path d="M240 280 L230 350 L250 350 Z M235 310 L225 360 L245 360 Z M230 340 L220 370 L240 370 Z" fill="#7bc043"/>
+  <rect x="233" y="370" width="4" height="20" fill="#5a4a3a"/>
+  
+  <path d="M290 300 L280 370 L300 370 Z M285 330 L275 380 L295 380 Z M280 360 L270 390 L290 390 Z" fill="#7bc043"/>
+  <rect x="283" y="390" width="4" height="20" fill="#5a4a3a"/>
+  
+  <!-- Trees (right) -->
+  <path d="M730 280 L720 350 L740 350 Z M725 310 L715 360 L735 360 Z M720 340 L710 370 L730 370 Z" fill="#7bc043"/>
+  <rect x="723" y="370" width="4" height="20" fill="#5a4a3a"/>
+  
+  <path d="M780 300 L770 370 L790 370 Z M775 330 L765 380 L785 380 Z M770 360 L760 390 L780 390 Z" fill="#7bc043"/>
+  <rect x="773" y="390" width="4" height="20" fill="#5a4a3a"/>
+  
+  <!-- Sun rays -->
+  <line x1="512" y1="200" x2="512" y2="140" stroke="#f4d03f" stroke-width="4" stroke-linecap="round"/>
+  <line x1="450" y1="220" x2="410" y2="180" stroke="#f4d03f" stroke-width="4" stroke-linecap="round"/>
+  <line x1="574" y1="220" x2="614" y2="180" stroke="#f4d03f" stroke-width="4" stroke-linecap="round"/>
+  <line x1="430" y1="250" x2="380" y2="230" stroke="#f4d03f" stroke-width="3" stroke-linecap="round"/>
+  <line x1="594" y1="250" x2="644" y2="230" stroke="#f4d03f" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Sun circle -->
+  <circle cx="512" cy="240" r="45" fill="#f4d03f"/>
+  
+  <!-- Roots/Mountain base -->
+  <path d="M400 480 L420 500 L440 485 L460 505 L480 490 L500 510 L520 495 L540 515 L560 500 L580 520 L600 505 L620 525" 
+        stroke="#fff" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Text -->
+  <text x="512" y="620" font-family="Arial Black, sans-serif" font-size="70" font-weight="900" 
+        fill="#f4d03f" text-anchor="middle" letter-spacing="2">HILLS SERVICES &amp; PROTOCOL</text>
+  
+  <text x="512" y="690" font-family="Georgia, serif" font-size="32" font-style="italic"
+        fill="#ffffff" text-anchor="middle">Excellent service on time</text>
+  
+  <!-- Decorative arrows -->
+  <path d="M310 680 L340 690 L310 700" fill="none" stroke="#fff" stroke-width="2"/>
+  <path d="M714 680 L684 690 L714 700" fill="none" stroke="#fff" stroke-width="2"/>
+</svg>
