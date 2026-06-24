@@ -19,7 +19,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
         >
-          Let's Make Your Event <span className="text-gold">Magical</span> ✨
+          Let's Make Your Event <span className="text-gold">Magical</span> 
         </motion.h1>
         
         <motion.p 
