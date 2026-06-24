@@ -33,7 +33,11 @@ const Navbar = () => {
     >
       <div className="container navbar-container">
         <div className="nav-brand">
-          <img src="/images/logo.svg" alt="Hills Services & Protocol" className="nav-logo" />
+          {/* 👇 REPLACE THIS WITH YOUR REAL LOGO */}
+         <img src="/images/darkB.png" alt="Hills Services & Protocol" className="nav-logo" />
+          {/* 👆 Replace the div above with: <img src="/images/your-logo.png" alt="Hills Services & Protocol" className="nav-logo" /> */}
+          
+          <h1 className="nav-brand-name">Hills Services & Protocol</h1>
         </div>
 
         <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>

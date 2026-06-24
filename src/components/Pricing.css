@@ -274,15 +274,75 @@
 }
 
 @media (max-width: 768px) {
+  .pricing {
+    padding: 80px 0;
+  }
+
   .pricing-grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .pricing-card {
+    padding: 2.5rem 2rem;
   }
 
   .pricing-card.featured {
     transform: scale(1);
   }
 
+  .pricing-card:hover {
+    transform: translateY(-10px);
+  }
+
   .pricing-card.featured:hover {
-    transform: translateY(-10px) scale(1);
+    transform: translateY(-10px) scale(1.02);
+  }
+
+  .pricing-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+  }
+
+  .pricing-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .pricing-price .amount {
+    font-size: 2rem;
+  }
+
+  .pricing-note {
+    font-size: 1rem;
+    padding: 1.2rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing {
+    padding: 60px 0;
+  }
+
+  .pricing-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .pricing-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 2.5rem;
+  }
+
+  .pricing-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .pricing-price .amount {
+    font-size: 1.8rem;
+  }
+
+  .pricing-features li {
+    font-size: 0.9rem;
   }
 }

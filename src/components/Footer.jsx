@@ -74,7 +74,7 @@ const Footer = () => {
             &copy; {currentYear} Hills Services & Protocol. All rights reserved.
           </p>
           <p className="footer-tagline">
-            Making every event magical ✨
+            Making every event magical 
           </p>
         </div>
       </div>

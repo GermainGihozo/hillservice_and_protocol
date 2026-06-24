@@ -28,7 +28,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          Professional Catering, Event Planning, Live Music & Ceremony Management
+          Professional Services, Event Planning, Live Music & Ceremony Management
         </motion.p>
 
         <motion.div 

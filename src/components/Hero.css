@@ -165,29 +165,68 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 100px 20px 60px;
+  }
+
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.3;
   }
 
   .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
   }
 
   .hero-buttons {
     flex-direction: column;
-    align-items: center;
+    gap: 1rem;
   }
 
   .hero-buttons .btn {
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
   }
 
   .hero-stats {
-    gap: 2rem;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+    flex-direction: column;
+  }
+
+  .hero-stats .stat {
+    padding: 1.2rem 1.5rem;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .hero-stats h3 {
     font-size: 2rem;
+  }
+
+  .hero-stats p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 90px 15px 50px;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero-stats h3 {
+    font-size: 1.8rem;
   }
 }
