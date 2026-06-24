@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Hills Services & Protocol</h3>
             <p>
-              Professional food & beverage catering, event management and planning, live music entertainment, and ceremony coordination services since 2014.
+              Professional food & beverage services, event management and planning, live music entertainment, and ceremony coordination services since 2014.
             </p>
             <div className="social-links">
               <a href="#" className="social-link" aria-label="Facebook">
@@ -48,7 +48,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Services</h3>
             <ul className="footer-links">
-              <li><a href="#services">Food & Beverage Catering</a></li>
+              <li><a href="#services">Food & Beverage service</a></li>
               <li><a href="#services">Event Management & Planning</a></li>
               <li><a href="#services">Live Music Band</a></li>
               <li><a href="#services">Ceremony Management</a></li>
@@ -59,11 +59,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Contact Info</h3>
             <ul className="footer-links">
-              <li>📞 +1 (555) 123-4567</li>
+              <li>📞 +250 788 512 125</li>
               <li>📧 info@hillsservices.com</li>
-              <li>📍 123 Event Street</li>
-              <li>City, State, ZIP</li>
-              <li>⏰ Mon-Sat: 9AM - 6PM</li>
+              <li>📍 Byumba City</li>
+              <li>⏰ Mon-Sat: 8AM - 6PM</li>
             </ul>
           </div>
         </div>

@@ -1,34 +1,36 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { FaStar, FaGem, FaCrown } from 'react-icons/fa'
 import './Pricing.css'
 
 const Pricing = () => {
   const pricingPlans = [
     {
-      icon: '🌟',
+      icon: <FaStar />,
       name: 'Basic Package',
-      price: '999',
+      price: '300,000',
       period: '/event',
+      currency: 'Rwf',
       description: 'Perfect for small gatherings and intimate celebrations',
       features: [
         'Event Planning Consultation',
         'Basic Food & Beverage Service',
         'Up to 50 Guests',
         'Standard Setup',
-        'Music System (DJ)',
         '4 Hours Coverage',
       ],
       unavailable: ['Live Band', 'Full Catering Menu', 'Ceremony Management']
     },
     {
-      icon: '💎',
+      icon: <FaGem />,
       name: 'Premium Package',
-      price: '2,499',
+      price: '500,000',
       period: '/event',
+      currency: 'Rwf',
       description: 'Most popular choice for memorable events',
       features: [
         'Complete Event Management',
-        'Premium Catering Service',
+        
         'Full Food & Beverage Menu',
         'Up to 150 Guests',
         'Professional Service Staff',
@@ -41,14 +43,14 @@ const Pricing = () => {
       featured: true
     },
     {
-      icon: '👑',
+      icon: <FaCrown />,
       name: 'Luxury Package',
-      price: '4,999',
+      price: '1,000,000',
       period: '/event',
+      currency: 'Rwf',
       description: 'Ultimate full-service experience for your special day',
       features: [
-        'VIP Event Management',
-        'Gourmet Catering Service',
+     
         'Premium Food & Beverage Selection',
         'Unlimited Guests',
         'Full Professional Staff',
@@ -75,7 +77,7 @@ const Pricing = () => {
         >
           <h2 className="section-title">Our Pricing</h2>
           <p className="section-subtitle">
-            Transparent pricing for catering, event management, and live music services - no hidden fees
+            Transparent pricing for event management, and live music services - no hidden fees
           </p>
         </motion.div>
 
@@ -95,7 +97,7 @@ const Pricing = () => {
                 <div className="pricing-icon">{plan.icon}</div>
                 <h3>{plan.name}</h3>
                 <div className="pricing-price">
-                  <span className="currency">$</span>
+                  <span className="currency">{plan.currency}</span>
                   <span className="amount">{plan.price}</span>
                   <span className="period">{plan.period}</span>
                 </div>

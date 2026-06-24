@@ -37,10 +37,10 @@ const Contact = () => {
   }
 
   const contactInfo = [
-    { icon: <FaPhone />, title: 'Phone', info: '+1 (555) 123-4567' },
+    { icon: <FaPhone />, title: 'Phone', info: '+250 788 512 125' },
     { icon: <FaEnvelope />, title: 'Email', info: 'info@hillsservices.com' },
-    { icon: <FaMapMarkerAlt />, title: 'Location', info: '123 Event Street, City, State' },
-    { icon: <FaClock />, title: 'Hours', info: 'Mon - Sat: 9:00 AM - 6:00 PM' },
+    { icon: <FaMapMarkerAlt />, title: 'Location', info: 'Byumba, City' },
+    { icon: <FaClock />, title: 'Hours', info: 'Mon - Sat: 8:00 AM - 6:00 PM' },
   ]
 
   return (
@@ -142,7 +142,7 @@ const Contact = () => {
                   required
                 >
                   <option value="">Select Service Type</option>
-                  <option value="catering">Food & Beverage Catering</option>
+                  <option value="catering">Food & Beverage Service</option>
                   <option value="event-planning">Event Management & Planning</option>
                   <option value="live-music">Live Music Band</option>
                   <option value="ceremony">Ceremony Management</option>
@@ -202,7 +202,7 @@ const Contact = () => {
         >
           <h3>Ready to Make Your Event Magical? ✨</h3>
           <p>Call us now for immediate assistance and exclusive offers!</p>
-          <a href="tel:+15551234567" className="btn btn-primary">Call Now: +1 (555) 123-4567</a>
+          <a href="tel:+250788512125" className="btn btn-primary">Call Now: +250 788 512 125</a>
         </motion.div>
       </div>
     </section>

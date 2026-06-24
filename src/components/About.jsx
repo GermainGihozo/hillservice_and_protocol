@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
   const features = [
-    { icon: '✓', text: 'Professional Catering Services' },
+    { icon: '✓', text: 'Professional foodand beverages Services' },
     { icon: '✓', text: 'Experienced Event Coordinators' },
     { icon: '✓', text: 'Live Band Entertainment' },
     { icon: '✓', text: 'Complete Event Management' },
@@ -13,9 +13,9 @@ const About = () => {
   ]
 
   const stats = [
-    { number: '500+', label: 'Events Completed' },
+    { number: '100+', label: 'Events Completed' },
     { number: '98%', label: 'Client Satisfaction' },
-    { number: '10+', label: 'Years Experience' },
+    { number: '2+', label: 'Years Experience' },
     { number: '50+', label: 'Team Members' },
   ]
 
@@ -34,7 +34,7 @@ const About = () => {
             <h3 className="about-subtitle">Food, Music, and Perfect Event Management Since 2014</h3>
             
             <p>
-              We are a premier event services company specializing in food & beverage catering, complete event management and planning, live music entertainment, and ceremony coordination. With years of experience in the industry, we bring professionalism, creativity, and exceptional service to every event we manage.
+              We are a premier event services company specializing in food & beverage services, complete event management and planning, live music entertainment, and ceremony coordination. With years of experience in the industry, we bring professionalism, creativity, and exceptional service to every event we manage.
             </p>
             
             <p>

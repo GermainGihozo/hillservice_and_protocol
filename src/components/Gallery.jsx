@@ -14,123 +14,121 @@ const Gallery = () => {
   // 1. Save your photos in: public/images/
   // 2. Replace the 'image' URLs below with: '/images/your-photo.jpg'
   // 3. Update 'title' and 'description' with your event details
-  // 4. Keep the 'category' to work with filters (wedding, corporate, graduation, concert, special)
+  // 4. Keep the 'category' to work with filters (catering, event, music, ceremony)
   //
   // EXAMPLE:
   // { 
   //   id: 1, 
-  //   category: 'wedding',
-  //   image: '/images/my-wedding-photo.jpg',  // 👈 PUT YOUR IMAGE HERE
-  //   title: 'Smith Wedding 2024',
-  //   description: 'Beautiful garden ceremony with 150 guests'
+  //   category: 'catering',
+  //   image: '/images/my-catering-photo.jpg',  // 👈 PUT YOUR IMAGE HERE
+  //   title: 'Wedding Catering 2024',
+  //   description: 'Delicious food service for 150 guests'
   // },
   // ============================================
 
   const galleryItems = [
-    // 💍 WEDDING PHOTOS (Replace these 3 images)
+    // 🍽️ CATERING PHOTOS (Replace these 3 images)
     { 
       id: 1, 
-      category: 'wedding', 
+      category: 'catering', 
       image: '/images/BEN_4118.jpg',
-      // 👆 REPLACE with: '/images/wedding-1.jpg'
-      title: 'Elegant Wedding Ceremony', 
-      description: 'Beautiful outdoor ceremony with floral decorations' 
+      // 👆 REPLACE with: '/images/catering-1.jpg'
+      title: 'Premium Catering Service', 
+      description: 'Delicious food and beverage service for events' 
     },
     { 
       id: 4, 
-      category: 'wedding', 
-      image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/wedding-2.jpg'
-      title: 'Garden Wedding Reception', 
-      description: 'Romantic venue setup with elegant decor' 
+      category: 'catering', 
+      image: 'https://images.unsplash.com/photo-1555244162-803834f70033?w=800&h=600&fit=crop',
+      // 👆 REPLACE with: '/images/catering-2.jpg'
+      title: 'Buffet Service Setup', 
+      description: 'Professional catering with diverse menu options' 
     },
     { 
       id: 9, 
-      category: 'wedding', 
+      category: 'catering', 
       image: '/images/BEN_4125.jpg',
-      // 👆 REPLACE with: '/images/wedding-3.jpg'
-      title: 'Grand Wedding Reception', 
-      description: 'Luxurious ballroom wedding celebration' 
+      // 👆 REPLACE with: '/images/catering-3.jpg'
+      title: 'Food & Beverage Excellence', 
+      description: 'Quality ingredients and presentation' 
     },
 
-    // 🏢 CORPORATE EVENT PHOTOS (Replace these 3 images)
+    // 📅 EVENT MANAGEMENT PHOTOS (Replace these 3 images)
     { 
       id: 2, 
-      category: 'corporate', 
+      category: 'event', 
       image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/corporate-1.jpg'
-      title: 'Corporate Gala Event', 
-      description: 'Annual business conference with 500+ attendees' 
+      // 👆 REPLACE with: '/images/event-1.jpg'
+      title: 'Corporate Event Management', 
+      description: 'Complete event planning and coordination' 
     },
     { 
       id: 7, 
-      category: 'corporate', 
+      category: 'event', 
       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/corporate-2.jpg'
-      title: 'Product Launch Event', 
-      description: 'Innovative tech startup product reveal' 
+      // 👆 REPLACE with: '/images/event-2.jpg'
+      title: 'Event Setup & Coordination', 
+      description: 'Professional event management services' 
     },
     { 
       id: 11, 
-      category: 'corporate', 
+      category: 'event', 
       image: 'https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/corporate-3.jpg'
-      title: 'Business Conference', 
-      description: 'International business summit event' 
+      // 👆 REPLACE with: '/images/event-3.jpg'
+      title: 'Full Event Planning', 
+      description: 'From concept to execution' 
     },
 
-    // 🎓 GRADUATION PHOTOS (Replace these 2 images)
+    // 🎸 LIVE MUSIC BAND PHOTOS (Replace these 3 images)
     { 
       id: 3, 
-      category: 'graduation', 
-      image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/graduation-1.jpg'
-      title: 'University Graduation', 
-      description: 'Memorable graduation ceremony celebration' 
-    },
-    { 
-      id: 12, 
-      category: 'graduation', 
-      image: 'https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/graduation-2.jpg'
-      title: 'College Commencement', 
-      description: 'Outdoor graduation ceremony with family' 
-    },
-
-    // 🎸 CONCERT/MUSIC PHOTOS (Replace these 2 images)
-    { 
-      id: 5, 
-      category: 'concert', 
+      category: 'music', 
       image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/concert-1.jpg'
-      title: 'Live Concert Performance', 
-      description: 'Music festival with live band entertainment' 
+      // 👆 REPLACE with: '/images/music-1.jpg'
+      title: 'Live Band Performance', 
+      description: 'Professional musicians for your event' 
     },
     { 
       id: 8, 
-      category: 'concert', 
+      category: 'music', 
       image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/concert-2.jpg'
-      title: 'Band Performance Night', 
-      description: 'Live music event with full entertainment' 
+      // 👆 REPLACE with: '/images/music-2.jpg'
+      title: 'Musical Entertainment', 
+      description: 'Multiple genres and custom setlists' 
+    },
+    { 
+      id: 12, 
+      category: 'music', 
+      image: 'https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=800&h=600&fit=crop',
+      // 👆 REPLACE with: '/images/music-3.jpg'
+      title: 'Band Entertainment', 
+      description: 'Making your event unforgettable' 
     },
 
-    // 🎉 SPECIAL EVENT PHOTOS (Replace these 2 images)
+    // ⭐ CEREMONY MANAGEMENT PHOTOS (Replace these 3 images)
+    { 
+      id: 5, 
+      category: 'ceremony', 
+      image: 'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&h=600&fit=crop',
+      // 👆 REPLACE with: '/images/ceremony-1.jpg'
+      title: 'Wedding Ceremony Management', 
+      description: 'Professional ceremony coordination' 
+    },
     { 
       id: 6, 
-      category: 'special', 
-      image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/special-1.jpg'
-      title: 'Birthday Celebration', 
-      description: '50th birthday party with 200 guests' 
+      category: 'ceremony', 
+      image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop',
+      // 👆 REPLACE with: '/images/ceremony-2.jpg'
+      title: 'Graduation Ceremony', 
+      description: 'Protocol services and guest management' 
     },
     { 
       id: 10, 
-      category: 'special', 
-      image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop',
-      // 👆 REPLACE with: '/images/special-2.jpg'
-      title: 'Anniversary Celebration', 
-      description: '25th anniversary party with live music' 
+      category: 'ceremony', 
+      image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop',
+      // 👆 REPLACE with: '/images/ceremony-3.jpg'
+      title: 'Special Ceremony Planning', 
+      description: 'Expert ceremony planning and execution' 
     },
   ]
 
@@ -151,11 +149,10 @@ const Gallery = () => {
 
   const filters = [
     { name: 'All Events', value: 'all' },
-    { name: 'Weddings', value: 'wedding' },
-    { name: 'Corporate', value: 'corporate' },
-    { name: 'Graduations', value: 'graduation' },
-    { name: 'Concerts', value: 'concert' },
-    { name: 'Special', value: 'special' },
+    { name: 'Catering', value: 'catering' },
+    { name: 'Event Management', value: 'event' },
+    { name: 'Live Music', value: 'music' },
+    { name: 'Ceremonies', value: 'ceremony' },
   ]
 
   const filteredItems = activeFilter === 'all' 

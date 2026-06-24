@@ -1,41 +1,42 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { FaUtensils, FaCalendarAlt, FaMusic, FaStar, FaGlassCheers, FaAward } from 'react-icons/fa'
 import './Services.css'
 
 const Services = () => {
   const services = [
     {
-      icon: '🍽️',
+      icon: <FaUtensils />,
       title: 'Food & Beverage Service',
       description: 'Professional catering services with delicious food and beverages for all types of events.',
       features: ['Professional Catering', 'Diverse Menu Options', 'Quality Ingredients']
     },
     {
-      icon: '🎯',
+      icon: <FaCalendarAlt />,
       title: 'Event Management',
       description: 'Complete event management and planning services to ensure your event runs smoothly from start to finish.',
       features: ['Full Event Planning', 'Vendor Coordination', 'Timeline Management']
     },
     {
-      icon: '🎸',
+      icon: <FaMusic />,
       title: 'Live Music Band',
       description: 'Professional live band entertainment with talented musicians to make your event unforgettable.',
       features: ['Multiple Genres', 'Professional Musicians', 'Custom Setlists']
     },
     {
-      icon: '✨',
+      icon: <FaStar />,
       title: 'Ceremony Management',
       description: 'Expert ceremony planning and coordination for weddings, graduations, and special occasions.',
       features: ['Protocol Services', 'Ceremony Coordination', 'Guest Management']
     },
     {
-      icon: '🎉',
+      icon: <FaGlassCheers />,
       title: 'Event Planning',
       description: 'Comprehensive event planning services for weddings, corporate events, and celebrations.',
       features: ['Budget Planning', 'Venue Selection', 'Design & Decor']
     },
     {
-      icon: '🎊',
+      icon: <FaAward />,
       title: 'Full Event Packages',
       description: 'Complete event packages combining catering, music, and management for a stress-free experience.',
       features: ['All-Inclusive Service', 'One-Stop Solution', 'Customizable Packages']

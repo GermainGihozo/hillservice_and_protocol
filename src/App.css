@@ -113,7 +113,9 @@
 
 /* Dark Mode Hero */
 .dark-mode .hero {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  background: 
+    linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.95) 50%, rgba(51, 65, 85, 0.95) 100%),
+    url('https://images.unsplash.com/photo-1519167758481-83f29da8c6b3?w=1920&h=1080&fit=crop') center/cover no-repeat;
   animation: darkGradientShift 15s ease infinite;
 }
 
